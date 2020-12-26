@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import Navigation from './components/navigation';
-import Header from './components/header';
-import Features from './components/features';
+
 import About from './components/about';
-import Services from './components/services';
-import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Team from './components/Team';
 import Contact from './components/contact';
+import Features from './components/features';
+import Gallery from './components/gallery';
+import Header from './components/header';
 import JsonData from './data/data.json';
+import Navigation from './components/navigation';
+import Services from './components/services';
+import Team from './components/Team';
+import Testimonials from './components/testimonials';
 
 export class App extends Component {
   state = {
@@ -27,7 +28,6 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
-        <Features data={this.state.landingPageData.Features} />
         <About data={this.state.landingPageData.About} />
         <Services data={this.state.landingPageData.Services} />
         <Gallery />
