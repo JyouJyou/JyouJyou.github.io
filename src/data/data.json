@@ -6,19 +6,8 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+        "paragraph1": "Jyou Jyou Information Systems Corporation (J.J. in short) focuses on the trading communications systems and the converged-access platform to the global financial community. We provide the technical solution by professional service as well as maintenance service. J.J. strives our best to meet traders’ needs on achieving low cost, low risk and boosting productivity. “Being updated to the ever-changing society and customers-centered” is our core value. ",
+        "paragraph2": "Our team has had more than 10-year expertise of trading communications solutions and comprehensive technology in helping customers anticipate changes to solve problems. Recently, due to several launches of AI programs in our nation, J.J. actively dives into CRM & Murex application integration, Speech to Text (STT), which accompany with current IPC’s trading communications systems to more unified solutions. J.J.’s market-leading offerings include professional consultations, guiding our customers to make the most use of our solutions, maximize the profit at trading floor. "
     },
     "Services": [{
             "icon": "fa fa-wordpress",
@@ -53,37 +42,6 @@
 
 
     ],
-    "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
     "Team": [{
             "img": "img/team/01.jpg",
             "name": "John Doe",
@@ -106,10 +64,16 @@
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "phone": "+886-2-2528-1100",
+        "email": "service@jyoujyou.com.tw",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
+    },
+    "Insight": {
+        "insightHeader": {
+            "title": "Create the unique value! \nAchieve the customer satisfaction!",
+            "subtitle": "Make the working partner extremely happy!"
+        }
     }
 }

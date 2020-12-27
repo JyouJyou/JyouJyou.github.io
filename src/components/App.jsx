@@ -1,26 +1,27 @@
 import React, { Component } from 'react'
-import Navigation from './navigation';
-import Header from './header';
-import Features from './features';
-import About from './about';
-import Services from './services';
-import Gallery from './gallery';
-import Testimonials from './testimonials';
-import Team from './Team';
-import Contact from './contact';
+
 import $ from 'jquery';
+import About from './About';
+import Contact from './contact';
+import Features from './features';
+import Gallery from './gallery';
+import Header from './Header';
+import Navigation from './navigation';
+import Services from './services';
+import Team from './Team';
+import Testimonials from './testimonials';
 
 export class App extends Component {
   state = {
-    resumeData : {},
+    webPageData : {},
   }
-  getResumeData(){
+  getWebPageData(){
     $.ajax({
       url:'/data.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
+        this.setState({webPageData: data});
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
@@ -30,21 +31,21 @@ export class App extends Component {
   }
 
   componentDidMount(){
-    this.getResumeData();
+    this.getWebPageData();
   }
 
   render() {
     return (
       <div>
         <Navigation />
-        <Header data={this.state.resumeData.Header}/>
-        <Features data={this.state.resumeData.Features}/>
-        <About  data={this.state.resumeData.About}/>
-        <Services  data={this.state.resumeData.Services}/>
+        <Header data={this.state.webPageData.Header}/>
+        <Features data={this.state.webPageData.Features}/>
+        <About  data={this.state.webPageData.About}/>
+        <Services  data={this.state.webPageData.Services}/>
         <Gallery />
-        <Testimonials  data={this.state.resumeData.Testimonials}/>
-        <Team  data={this.state.resumeData.Team}/>
-        <Contact  data={this.state.resumeData.Contact}/>
+        <Testimonials  data={this.state.webPageData.Testimonials}/>
+        <Team  data={this.state.webPageData.Team}/>
+        <Contact  data={this.state.webPageData.Contact}/>
       </div>
     )
   }

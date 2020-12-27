@@ -28,7 +28,7 @@ function Navigation (props) {
             <span className="icon-bar"></span>{" "}
           </button>
 
-          <a className="navbar-brand page-scroll logoContainer" href="#page-top">
+          <a className="navbar-brand page-scroll logoContainer" href="/#page-top">
             <img className={classes.logo} src='/img/commons/jyoujyou-logo.png' alt='logo' />
           </a>{" "}
 
@@ -40,33 +40,33 @@ function Navigation (props) {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="/#about" className="page-scroll">
                 About
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="/#services" className="page-scroll">
                 Services
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="/#portfolio" className="page-scroll">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
+              <a href="/#team" className="page-scroll">
                 Team
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="/#contact" className="page-scroll">
                 Contact
+              </a>
+            </li>
+             <li>
+              <a href="/insights" >
+                Insights
               </a>
             </li>
           </ul>

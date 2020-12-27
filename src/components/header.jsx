@@ -1,7 +1,7 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core";
+import { Fade, makeStyles } from "@material-ui/core";
 
-const MARGIN_IN_BETWEEN = 30
+import React from "react";
+
 const useStyles = makeStyles((theme) => ({
   header: {
     fontSize: 60,
@@ -30,18 +30,23 @@ function Header (props) {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <div className={classes.header}>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </div>
+              
+                <Fade in={true} timeout={{enter: 2000}}>
+                  <div className={classes.header}>
+                    {props.data ? props.data.title : "Loading"}
+                    <span></span>
+                  </div>
+                </Fade>
 
-                <div className={classes.body}>
-                  {props.data ? props.data.paragraph : "Loading"}
-                </div>
+                <Fade in={true} timeout={{enter: 2500}}>
+                  <div className={classes.body}>
+                    {props.data ? props.data.paragraph : "Loading"}
+                  </div>
+                </Fade>
 
                 <div className={classes.learnMore}>
                   <a
-                    href="#features"
+                    href="/#about"
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Learn More
