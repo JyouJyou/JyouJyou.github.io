@@ -1,9 +1,7 @@
-import { Container, Fade, makeStyles } from "@material-ui/core";
-
-import AccountBalanceOutlinedIcon from '@material-ui/icons/AccountBalanceOutlined';
 import InsightsContextTemplate from "./InsightsContextTemplate";
 import React from "react";
 import { insightsContextData } from "../../../data/data";
+import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -69,12 +69,10 @@ function InsightsContextTemplate({icon: Icon, title, intro}) {
                         </div>
                     </Fade>
                      <Fade in={true} timeout={{enter: 2000}}>
-                        <div>
+                        <div className={classes.learnMore}>
                             <a
                                 href="/#about"
                                 className="btn btn-custom btn-lg page-scroll"
-                                className={classes.learnMore}
-
                             >
                                 Learn more {">"}
                             </a>{" "}

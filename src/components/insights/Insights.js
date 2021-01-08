@@ -27,7 +27,7 @@ function Insights (props) {
 
   useEffect(() => {
     setState(data.Insight)
-  })
+  }, [])
 
   return (
     <Grid direction="column" className={classes.root}>
