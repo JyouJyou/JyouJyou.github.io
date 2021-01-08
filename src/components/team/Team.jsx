@@ -5,15 +5,22 @@ import { Grid } from "@material-ui/core";
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   container: {
     paddingRight: 100,
     paddingLeft: 100,
+
+    [theme.breakpoints.down("xs")]: {
+      padding: 0,
+    },
   },
   teammatesContainer: {
     overflow: "scroll",
     alignItems: "center",
     display: "flex",
+    [theme.breakpoints.down("xs")]: {
+      display: "block",
+    },
   },
   teammateContainer: {
     marginRight: 30,

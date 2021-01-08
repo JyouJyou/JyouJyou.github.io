@@ -2,7 +2,7 @@ import { Grid } from "@material-ui/core";
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   root: {},
   imgContainer: {
     width: 250,
@@ -20,6 +20,9 @@ const useStyles = makeStyles(() => ({
     fontSize: 15,
     fontWeight: 500,
     marginTop: 1,
+    [theme.breakpoints.down("xs")]: {
+      marginBottom: 30,
+    },
   },
 }));
 function Employee({ teammate }) {
