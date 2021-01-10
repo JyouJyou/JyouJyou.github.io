@@ -6,19 +6,24 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    
   },
-}))
-    
-function InsightsContext () {
+}));
+
+function InsightsContext() {
   const classes = useStyles();
 
   return (
-     <div id="insights" className={classes.root}>
-      {insightsContextData.map(data => <InsightsContextTemplate icon={data.icon} title={data.title} intro={data.intro} />) }
-     </div>
+    <div id="insights" className={classes.root}>
+      {insightsContextData.map((data) => (
+        <InsightsContextTemplate
+          path={data.path}
+          icon={data.icon}
+          title={data.title}
+          intro={data.intro}
+        />
+      ))}
+    </div>
   );
 }
-
 
 export default InsightsContext;
