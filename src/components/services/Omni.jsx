@@ -9,7 +9,7 @@ import { useIsVisible } from "react-is-visible";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    height: 300,
+    height: 380,
     display: "flex",
     paddingLeft: 50,
     paddingRight: 50,

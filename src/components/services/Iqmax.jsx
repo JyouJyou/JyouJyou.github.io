@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
       display: "block",
       paddingLeft: 0,
       paddingRight: 0,
-      marginTop: "250",
+      marginTop: 340,
       height: "auto",
     },
   },

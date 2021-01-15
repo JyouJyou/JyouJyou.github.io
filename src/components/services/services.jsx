@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     textAlign: "center",
     minHeight: 550,
+    color: "white",
   },
   title: {
     fontFamily: FONT_FAMILY,
