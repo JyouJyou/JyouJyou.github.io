@@ -7,20 +7,20 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 60,
     color: "white",
     lineHeight: "55px",
-    fontWeight: 900
+    fontWeight: 900,
   },
   body: {
     marginTop: 50,
     color: "white",
     fontSize: 20,
-    fontWeight: 500
+    fontWeight: 500,
   },
   learnMore: {
-    marginTop: 10
-  }
-}))
+    marginTop: 10,
+  },
+}));
 
-function Header (props) {
+function Header(props) {
   const classes = useStyles();
 
   return (
@@ -30,15 +30,14 @@ function Header (props) {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-              
-                <Fade in={true} timeout={{enter: 2000}}>
+                <Fade in={true} timeout={{ enter: 2000 }}>
                   <div className={classes.header}>
                     {props.data ? props.data.title : "Loading"}
                     <span></span>
                   </div>
                 </Fade>
 
-                <Fade in={true} timeout={{enter: 2500}}>
+                <Fade in={true} timeout={{ enter: 2500 }}>
                   <div className={classes.body}>
                     {props.data ? props.data.paragraph : "Loading"}
                   </div>
@@ -60,6 +59,5 @@ function Header (props) {
     </header>
   );
 }
-
 
 export default Header;
