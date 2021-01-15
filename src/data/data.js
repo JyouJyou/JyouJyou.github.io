@@ -1,3 +1,5 @@
+import { URL_BUSINESS_MODEL, URL_WHY_CHOOSE_IPC } from "../utils/utils";
+
 import AccountBalanceOutlinedIcon from "@material-ui/icons/AccountBalanceOutlined";
 import CompareArrowsOutlinedIcon from "@material-ui/icons/CompareArrowsOutlined";
 import SettingsOutlinedIcon from "@material-ui/icons/SettingsOutlined";
@@ -8,21 +10,21 @@ export const insightsContextData = [
     title: "CHOOSING A TURRET/DEALERBOARD SYSTEM",
     intro:
       "should involve more than just a basic evaluation of features and functions. There are other important factors to consider when selecting a firm’s turrets for reliable trading communications.",
-    path: "/business-model",
+    path: URL_BUSINESS_MODEL,
   },
   {
     icon: SettingsOutlinedIcon,
     title: "OPTIMIZING PRODUCTIVITY & MANAGING VOLATILITY",
     intro:
       "Even in a small firm, there are going to be those times when a trader is getting more calls coming in than he can take at one time.",
-    path: "/business-model",
+    path: URL_BUSINESS_MODEL,
   },
   {
     icon: CompareArrowsOutlinedIcon,
     title: "TURRET OR PBXS: FORE KEY BUSINESS INDICATORS",
     intro:
       "• Individual trader call volume \n• Volatility of the market being traded \n• Value of “crunch time” calls\n• Competitive parity ",
-    path: "/why-choose-ipc",
+    path: URL_WHY_CHOOSE_IPC,
   },
 ];
 

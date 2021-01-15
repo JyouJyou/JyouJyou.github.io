@@ -1,6 +1,6 @@
 {
-  "name": "website-for-jyoujyou",
-  "homepage": "./",
+  "name": "jyoujyou",
+  "homepage": "https://chuyiting.github.io/JyouJyouWebsite",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
@@ -32,12 +32,14 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 11"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "ie 11"
     ]
   }
 }

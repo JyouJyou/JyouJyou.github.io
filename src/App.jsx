@@ -12,7 +12,7 @@ export const FONT_FAMILY = "Raleway";
 
 export function App(props) {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppTemplate>
         <Switch>
           <Route exact path="/" component={MainPage} />
