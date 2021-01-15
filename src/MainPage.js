@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 import About from "./components/About";
 import Contact from "./components/contact";
-import Gallery from "./components/gallery";
 import Header from "./components/Header";
 import JsonData from "./data/data.json";
+import NewsAndEvents from "./components/news-and-events/NewsAndEvents";
 import Services from "./components/services/services";
 import Team from "./components/team/Team";
 
@@ -26,7 +26,7 @@ export class MainPage extends Component {
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />
         <Services />
-        <Gallery />
+        <NewsAndEvents />
         <Team />
         <Contact data={this.state.landingPageData.Contact} />
       </div>

@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
   container: {
     paddingRight: 100,
     paddingLeft: 100,
+    marginBottom: 80,
 
     [theme.breakpoints.down("xs")]: {
       padding: 0,

@@ -1,7 +1,10 @@
+import React, { useRef } from "react";
+
 import { FONT_FAMILY } from "../../App";
-import React from "react";
+import { Fade } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 import { servicesData } from "../../data/data";
+import { useIsVisible } from "react-is-visible";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     marginTop: "60",
     justifyContent: "center",
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       display: "block",
       paddingLeft: 0,
       paddingRight: 0,
@@ -28,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 900,
     fontFamily: FONT_FAMILY,
     textAlign: "left",
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       textAlign: "center",
       fontSize: 40,
     },
@@ -39,21 +42,21 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 900,
     textAlign: "left",
     fontFamily: FONT_FAMILY,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       textAlign: "center",
     },
   },
   learnMore: {
     textAlign: "left",
     marginTop: 30,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       textAlign: "center",
     },
   },
   rightContainer: {
     maxWidth: 500,
     marginLeft: 50,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       marginLeft: 0,
     },
   },
@@ -86,34 +89,48 @@ const useStyles = makeStyles((theme) => ({
 function Iqmax() {
   const classes = useStyles();
   const data = servicesData.iqmax;
+  const nodeRef = useRef();
+  const isVisible = useIsVisible(nodeRef, { once: true });
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} ref={nodeRef}>
       <div className={classes.leftContainer}>
-        <img
-          className={classes.comImg}
-          src="img/services/iqmax.png"
-          alt="iqmax-pic"
-        />
+        {isVisible && (
+          <Fade in={true} timeout={{ enter: 2000 }}>
+            <img
+              className={classes.comImg}
+              src="img/services/iqmax.png"
+              alt="iqmax-pic"
+            />
+          </Fade>
+        )}
       </div>
-      <div className={classes.rightContainer}>
-        <div className={classes.title}>{data.title}</div>
-        <div className={classes.slogan}>{data.slogan}</div>
-        <div>
-          <p className={classes.introText}>{data.intro}</p>
-        </div>
-        <div className={classes.learnMore}>
-          <a href={data.link} className="btn btn-custom btn-lg page-scroll">
-            Learn more {">"}
-          </a>{" "}
-        </div>
-      </div>
+      {isVisible && (
+        <Fade in={true} timeout={{ enter: 2000 }}>
+          <div className={classes.rightContainer}>
+            <div className={classes.title}>{data.title}</div>
+            <div className={classes.slogan}>{data.slogan}</div>
+            <div>
+              <p className={classes.introText}>{data.intro}</p>
+            </div>
+            <div className={classes.learnMore}>
+              <a href={data.link} className="btn btn-custom btn-lg page-scroll">
+                Learn more {">"}
+              </a>{" "}
+            </div>
+          </div>
+        </Fade>
+      )}
       <div>
-        <img
-          className={classes.phoneImg}
-          src="img/services/iqmax.png"
-          alt="iqmax-pic"
-        />
+        {isVisible && (
+          <Fade in={true} timeout={{ enter: 2000 }}>
+            <img
+              className={classes.phoneImg}
+              src="img/services/iqmax.png"
+              alt="iqmax-pic"
+            />
+          </Fade>
+        )}
       </div>
     </div>
   );

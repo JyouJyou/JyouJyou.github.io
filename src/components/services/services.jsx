@@ -5,7 +5,7 @@ import Omni from "./Omni";
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "black",
     width: "100%",
@@ -16,6 +16,9 @@ const useStyles = makeStyles(() => ({
     fontFamily: FONT_FAMILY,
     fontSize: 60,
     fontWeight: 900,
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 50,
+    },
   },
 }));
 export function Services() {

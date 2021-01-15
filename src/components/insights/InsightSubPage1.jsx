@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 400,
     marginRight: 30,
     marginBottom: 50,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       marginRight: 0,
     },
   },
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     marginBottom: 100,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
       display: "block",
       paddingLeft: 15,
       paddingRight: 15,

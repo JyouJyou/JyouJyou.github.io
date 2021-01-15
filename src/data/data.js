@@ -73,7 +73,7 @@ export const teamSlogan = "An apple a day keeps the doctor away...";
 export const servicesData = {
   bctech: {
     title: "BC-TECH",
-    slogan: "All in one. Blazing fast!",
+    slogan: "Real time client information fetcher.\n All in one. Blazing fast!",
     videoLink: "https://www.youtube.com/watch?v=0VBKRcODOVg&feature=youtu.be",
   },
   iqmax: {
@@ -89,3 +89,44 @@ export const servicesData = {
     link: "https://www.ipc.com/working-remotely/omni/",
   },
 };
+
+export const contactsData = {
+  address:
+    "7F, No. 149-17, Sec. 2 Keelung Rd., Xinyi Dist. 11005, Taipei, Taiwan",
+  phone: "+886-2-2528-1100",
+  email: "service@jyoujyou.com.tw",
+  facebook: "fb.com",
+  twitter: "twitter.com",
+  youtube: "youtube.com",
+};
+
+export const newsAndEventsData = [
+  {
+    title: "Omni event",
+    content:
+      "The Industry’s Leading Solution for Traders to Work Remotely Today’s traders demand mobility. IQ/MAX® Omni enables secure, reliable, compliant and “anytime, anywhere” access to counterparties, liquidity, and trade lifecycle services. The cutting-edge technology of IQ/MAX® Omni puts the same power, control and intuitive user interface provided by Unigy®– powered IQ/MAX Touch and IQ/MAX devices to allow traders to work remotely. Harnessing the power of partnership with IPC Systems, Inc., Jyou Jyou Information Systems Corporation can deliver this solution to you which allows you to communicate, collaborate, stay compliant and trade seamlessly at any time from any location with IQ/MAX® Omni.",
+    learnMoreLink:
+      "https://www.linkedin.com/posts/chu-chi-hsuan-83193417_iqmax-omni-solution-sheet-activity-6658589113492533248-7HwZ",
+    imgs: [
+      "img/news-and-events/omni-event/1.png",
+      "img/news-and-events/omni-event/2.png",
+    ],
+    date: "Mar 2020",
+  },
+  {
+    title: "Office Relocation",
+    content: "Jyou Jyou moves its office",
+    imgs: [
+      "img/news-and-events/relocation-event/1.jpg",
+      "img/news-and-events/relocation-event/2.jpg",
+      "img/news-and-events/relocation-event/3.jpg",
+    ],
+    date: "Sep 7th 2020",
+  },
+  {
+    title: "Dinner Gathering",
+    content: "Periodic dinner gathering of Jyou Jyou Inc.",
+    imgs: ["img/news-and-events/dinner-gathering-event/1.png"],
+    date: "Oct 7th 2020",
+  },
+];
