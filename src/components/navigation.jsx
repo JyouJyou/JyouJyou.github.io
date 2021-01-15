@@ -4,11 +4,11 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   logo: {
     height: 60,
-    marginTop: -15
+    marginTop: -15,
   },
-}))
+}));
 
-function Navigation (props) {
+function Navigation(props) {
   const classes = useStyles();
 
   return (
@@ -27,11 +27,16 @@ function Navigation (props) {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-
-          <a className="navbar-brand page-scroll logoContainer" href="/#page-top">
-            <img className={classes.logo} src='/img/commons/jyoujyou-logo.png' alt='logo' />
+          <a
+            className="navbar-brand page-scroll logoContainer"
+            href="/#page-top"
+          >
+            <img
+              className={classes.logo}
+              src="/img/commons/jyoujyou-logo.png"
+              alt="logo"
+            />
           </a>{" "}
-
         </div>
 
         <div
@@ -45,13 +50,13 @@ function Navigation (props) {
               </a>
             </li>
             <li>
-              <a href="/#services" className="page-scroll">
-                Services
+              <a href="/#products" className="page-scroll">
+                Products
               </a>
             </li>
             <li>
-              <a href="/#portfolio" className="page-scroll">
-                Gallery
+              <a href="/#news-and-events" className="page-scroll">
+                News&Events
               </a>
             </li>
             <li>
@@ -64,10 +69,8 @@ function Navigation (props) {
                 Contact
               </a>
             </li>
-             <li>
-              <a href="/insights" >
-                Insights
-              </a>
+            <li>
+              <a href="/insights">Insights</a>
             </li>
           </ul>
         </div>
@@ -75,6 +78,5 @@ function Navigation (props) {
     </nav>
   );
 }
-
 
 export default Navigation;

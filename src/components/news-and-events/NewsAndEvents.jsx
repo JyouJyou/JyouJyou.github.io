@@ -22,7 +22,7 @@ function NewsAndEvents() {
   const classes = useStyles();
 
   return (
-    <div id="portfolio" className="text-center">
+    <div id="news-and-events" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>News and Events</h2>

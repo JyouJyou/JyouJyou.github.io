@@ -25,7 +25,7 @@ export function Services() {
   const classes = useStyles();
 
   return (
-    <div id="services" className={classes.root}>
+    <div id="products" className={classes.root}>
       <div className="section-title" style={{ marginBottom: 100 }}>
         <div className={classes.title}>Our Products</div>
         <p>The future of trading floor communication.</p>
