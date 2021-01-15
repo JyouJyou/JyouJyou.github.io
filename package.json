@@ -1,6 +1,6 @@
 {
   "name": "website-for-jyoujyou",
-  "homepage": "./",
+  "homepage": "https://chuyiting.github.io/JyouJyouWebsite",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
