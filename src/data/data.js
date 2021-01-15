@@ -69,3 +69,16 @@ export const teamData = [
 ];
 
 export const teamSlogan = "An apple a day keeps the doctor away...";
+
+export const servicesData = {
+  bctech: {
+    title: "BC-TECH",
+    slogan: "All in one. Blazing fast!",
+    videoLink: "https://www.youtube.com/watch?v=0VBKRcODOVg&feature=youtu.be",
+  },
+  iqmax: {
+    title: "IQ/MAX Touch",
+    slogan: "As simple as a smart phone... just touch, and you’re there.",
+    link: "https://www.ipc.com/trading-communication-systems/iq-max-touch/",
+  },
+};
