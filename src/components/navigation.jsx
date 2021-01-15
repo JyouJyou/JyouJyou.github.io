@@ -33,7 +33,7 @@ function Navigation(props) {
           >
             <img
               className={classes.logo}
-              src="/img/commons/jyoujyou-logo.png"
+              src="img/commons/jyoujyou-logo.png"
               alt="logo"
             />
           </a>{" "}
