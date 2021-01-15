@@ -131,7 +131,8 @@ export const newsAndEventsData = [
   },
   {
     title: "Office Relocation",
-    content: "Jyou Jyou moves its office",
+    content:
+      "JyouJyou relocated to the newly decorated new office in August 2020, including exhibition meeting room, backroom for IPC Unigy System, and staff pantry with unlimited foods and drinks.",
     imgs: [
       "img/news-and-events/relocation-event/1.jpg",
       "img/news-and-events/relocation-event/2.jpg",
