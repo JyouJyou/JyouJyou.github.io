@@ -1,11 +1,13 @@
 import { Fade, Slide } from "@material-ui/core";
 import React, { useRef } from "react";
 
+import { aboutPageData } from "../data/data";
 import { useIsVisible } from "react-is-visible";
 
-function About(props) {
+function About() {
   const nodeRef = useRef();
   const isVisible = useIsVisible(nodeRef, { once: true });
+  const data = aboutPageData;
 
   return (
     <div id="about">
@@ -24,8 +26,8 @@ function About(props) {
               <Fade in={true} timeout={{ enter: 2000 }}>
                 <div className="about-text">
                   <h2>About Us</h2>
-                  <p>{props.data ? props.data.paragraph1 : "loading..."}</p>
-                  <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+                  <p>{data ? data.paragraph1 : "loading..."}</p>
+                  <p>{data ? data.paragraph2 : "loading..."}</p>
                 </div>
               </Fade>
             )}

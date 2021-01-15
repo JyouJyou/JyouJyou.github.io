@@ -1,6 +1,7 @@
 import { Fade, makeStyles } from "@material-ui/core";
 
 import React from "react";
+import { headerdata } from "../data/data";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -20,8 +21,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Header(props) {
+function Header() {
   const classes = useStyles();
+  const data = headerdata;
 
   return (
     <header id="header">
@@ -32,14 +34,14 @@ function Header(props) {
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <Fade in={true} timeout={{ enter: 2000 }}>
                   <div className={classes.header}>
-                    {props.data ? props.data.title : "Loading"}
+                    {data ? data.title : "Loading"}
                     <span></span>
                   </div>
                 </Fade>
 
                 <Fade in={true} timeout={{ enter: 2500 }}>
                   <div className={classes.body}>
-                    {props.data ? props.data.paragraph : "Loading"}
+                    {data ? data.paragraph : "Loading"}
                   </div>
                 </Fade>
 

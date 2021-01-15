@@ -148,3 +148,20 @@ export const newsAndEventsData = [
     date: "Oct 7th 2020",
   },
 ];
+
+export const aboutPageData = {
+  paragraph1:
+    "Jyou Jyou Information Systems Corporation (J.J. in short) focuses on the trading communications systems and the converged-access platform to the global financial community. We provide the technical solution by professional service as well as maintenance service. J.J. strives our best to meet traders’ needs on achieving low cost, low risk and boosting productivity. “Being updated to the ever-changing society and customers-centered” is our core value. ",
+  paragraph2:
+    "Our team has had more than 10-year expertise of trading communications solutions and comprehensive technology in helping customers anticipate changes to solve problems. Recently, due to several launches of AI programs in our nation, J.J. actively dives into CRM & Murex application integration, Speech to Text (STT), which accompany with current IPC’s trading communications systems to more unified solutions. J.J.’s market-leading offerings include professional consultations, guiding our customers to make the most use of our solutions, maximize the profit at trading floor. ",
+};
+
+export const headerdata = {
+  title: "Secure a deal swiftly and elegantly",
+  paragraph: "Connecting the global financial community. Mitigating risk.",
+};
+
+export const insightHeaderData = {
+  title: "Create the unique value! \nAchieve the customer satisfaction!",
+  subtitle: "Make the working partner extremely happy!",
+};
