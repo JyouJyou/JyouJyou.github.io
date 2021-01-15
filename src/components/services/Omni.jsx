@@ -5,21 +5,17 @@ import { servicesData } from "../../data/data";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: "black",
     width: "100%",
     height: 300,
     display: "flex",
     paddingLeft: 50,
     paddingRight: 50,
-    margin: "auto",
-    marginTop: "60",
+    marginTop: "130",
     justifyContent: "center",
     [theme.breakpoints.down("xs")]: {
       display: "block",
       paddingLeft: 0,
       paddingRight: 0,
-      marginTop: "250",
-      height: "auto",
     },
   },
   title: {
@@ -51,72 +47,51 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   rightContainer: {
-    maxWidth: 500,
-    marginLeft: 50,
+    marginLeft: 30,
     [theme.breakpoints.down("xs")]: {
       marginLeft: 0,
     },
   },
-  comImg: {
+  leftContainer: {
     width: 500,
-    marginTop: 30,
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
     },
   },
-  phoneImg: {
-    width: "80%",
-    textAlign: "center",
-    marginTop: 30,
-    [theme.breakpoints.up("sm")]: {
-      display: "none",
-    },
-  },
-  introText: {
-    [theme.breakpoints.down("sm")]: {
+  img: {
+    width: 450,
+    [theme.breakpoints.down("xs")]: {
+      width: "80%",
       textAlign: "center",
-      paddingRight: 10,
-      paddingLeft: 10,
+      marginTop: 30,
     },
-    textAlign: "left",
-    marginTop: 10,
   },
 }));
 
-function Iqmax() {
+function Bctech() {
   const classes = useStyles();
-  const data = servicesData.iqmax;
+  const data = servicesData.omni;
 
   return (
     <div className={classes.root}>
       <div className={classes.leftContainer}>
-        <img
-          className={classes.comImg}
-          src="img/services/iqmax.png"
-          alt="iqmax-pic"
-        />
-      </div>
-      <div className={classes.rightContainer}>
         <div className={classes.title}>{data.title}</div>
         <div className={classes.slogan}>{data.slogan}</div>
-        <div>
-          <p className={classes.introText}>{data.intro}</p>
-        </div>
         <div className={classes.learnMore}>
           <a href={data.link} className="btn btn-custom btn-lg page-scroll">
             Learn more {">"}
           </a>{" "}
         </div>
       </div>
-      <div>
+      <div className={classes.rightContainer}>
         <img
-          className={classes.phoneImg}
-          src="img/services/iqmax.png"
-          alt="iqmax-pic"
+          className={classes.img}
+          src="img/services/omni.png"
+          alt="bc-tech-pic"
         />
       </div>
     </div>
   );
 }
 
-export default Iqmax;
+export default Bctech;

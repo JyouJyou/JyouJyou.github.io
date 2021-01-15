@@ -1,6 +1,7 @@
 import Bctech from "./Bctech";
 import { FONT_FAMILY } from "../../App";
 import Iqmax from "./Iqmax";
+import Omni from "./Omni";
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 
@@ -28,6 +29,7 @@ export function Services() {
       </div>
       <Bctech />
       <Iqmax />
+      <Omni />
     </div>
   );
 }

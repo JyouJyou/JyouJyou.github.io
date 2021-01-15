@@ -80,5 +80,12 @@ export const servicesData = {
     title: "IQ/MAX Touch",
     slogan: "As simple as a smart phone... just touch, and you’re there.",
     link: "https://www.ipc.com/trading-communication-systems/iq-max-touch/",
+    intro:
+      "取代傳統交換機(PBX) ，領先交易競爭對手 即時掌握交易機會。無論是在資本市場、大宗商品交易、對沖基金還是經紀行業，語音交易都是業務的關鍵部分。在復雜的資產類別中進行交易時，個人互動是必不可少的。要想有競爭力，必需抓住新的市場機會。交易通訊系統能夠快速有效地與外部對手和同事進行語音協作的交易通訊。交易電話具有高效、專業、便捷、合規、先進等特點，目前已廣泛應用於國內各大金融交易室。",
+  },
+  omni: {
+    title: "IQ/MAX Omni",
+    slogan: "The Industry’s Leading Solution for Traders to Work Remotely",
+    link: "https://www.ipc.com/working-remotely/omni/",
   },
 };
