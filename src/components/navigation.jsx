@@ -1,3 +1,13 @@
+import {
+  URL_ABOUT,
+  URL_CONTACT,
+  URL_INSIGHTS,
+  URL_NEWS,
+  URL_PRODUCTS,
+  URL_TEAM,
+  URL_TOP,
+} from "../utils/utils";
+
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 
@@ -27,10 +37,7 @@ function Navigation(props) {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a
-            className="navbar-brand page-scroll logoContainer"
-            href="/#page-top"
-          >
+          <a className="navbar-brand page-scroll logoContainer" href={URL_TOP}>
             <img
               className={classes.logo}
               src="img/commons/jyoujyou-logo.png"
@@ -45,32 +52,32 @@ function Navigation(props) {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="/#about" className="page-scroll">
+              <a href={URL_ABOUT} className="page-scroll">
                 About
               </a>
             </li>
             <li>
-              <a href="/#products" className="page-scroll">
+              <a href={URL_PRODUCTS} className="page-scroll">
                 Products
               </a>
             </li>
             <li>
-              <a href="/#news-and-events" className="page-scroll">
+              <a href={URL_NEWS} className="page-scroll">
                 News&Events
               </a>
             </li>
             <li>
-              <a href="/#team" className="page-scroll">
+              <a href={URL_TEAM} className="page-scroll">
                 Team
               </a>
             </li>
             <li>
-              <a href="/#contact" className="page-scroll">
+              <a href={URL_CONTACT} className="page-scroll">
                 Contact
               </a>
             </li>
             <li>
-              <a href="/insights">Insights</a>
+              <a href={URL_INSIGHTS}>Insights</a>
             </li>
           </ul>
         </div>

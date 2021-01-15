@@ -9,7 +9,7 @@ import { insightHeaderData } from "../../data/data";
 const useStyles = makeStyles((theme) => ({
   root: {
     [theme.breakpoints.up("xs")]: {
-      backgroundImage: "url(/img/insights/insights-bg.jpg)",
+      backgroundImage: "url(img/insights/insights-bg.jpg)",
       backgroundSize: "cover",
       height: 630,
       width: "100%",
