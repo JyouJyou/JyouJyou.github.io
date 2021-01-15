@@ -13,13 +13,13 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     paddingLeft: 50,
     paddingRight: 50,
-    marginTop: "130",
+    marginTop: 150,
     justifyContent: "center",
     [theme.breakpoints.down("sm")]: {
       display: "block",
       paddingLeft: 0,
       paddingRight: 0,
-      height: "auto",
+      height: 600,
     },
   },
   title: {
