@@ -22,6 +22,7 @@ export const insightsContextData = [
     title: "TURRET OR PBXS: FORE KEY BUSINESS INDICATORS",
     intro:
       "• Individual trader call volume \n• Volatility of the market being traded \n• Value of “crunch time” calls\n• Competitive parity ",
+    path: "/why-choose-ipc",
   },
 ];
 
@@ -140,7 +141,8 @@ export const newsAndEventsData = [
   },
   {
     title: "Dinner Gathering",
-    content: "Periodic dinner gathering of Jyou Jyou Inc.",
+    content:
+      "As Lexi joined into JyouJyou in September, we held the welcome party as a dinner gathering on 29th September 2020 at Luna D’ltalia by using top fresh ingredients to cook traditional Italian dish with authentic recipes and cooking methods.",
     imgs: ["img/news-and-events/dinner-gathering-event/1.png"],
     date: "Oct 7th 2020",
   },
