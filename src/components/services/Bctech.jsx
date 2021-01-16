@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 
 import { FONT_FAMILY } from "../../App";
 import { Fade } from "@material-ui/core";
+import { URL_BCTECH_BROCHURE } from "../../utils/utils";
 import { makeStyles } from "@material-ui/core";
 import { servicesData } from "../../data/data";
 import { useIsVisible } from "react-is-visible";
@@ -109,7 +110,7 @@ function Bctech() {
             </div>
             <div className={classes.learnMore}>
               <a
-                href={"/bc-tech-brochure"}
+                href={URL_BCTECH_BROCHURE}
                 className="btn btn-custom btn-lg page-scroll"
               >
                 Learn more {">"}

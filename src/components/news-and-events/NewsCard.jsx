@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 400,
     maxHeight: 500,
+    height: 500,
     overflowY: "scroll",
     [theme.breakpoints.down("sm")]: {
       width: "100%",

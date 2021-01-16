@@ -27,7 +27,7 @@ function Header() {
   const data = headerdata;
 
   return (
-    <header id="header">
+    <header id="page-top">
       <div className="intro">
         <div className="overlay">
           <div className="container">

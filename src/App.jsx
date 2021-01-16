@@ -6,6 +6,7 @@ import InsightSubpage1 from "./components/insights/InsightSubPage1";
 import InsightSubpage2 from "./components/insights/InsightSubPage2";
 import Insights from "./components/insights/Insights";
 import MainPage from "./MainPage";
+import NotFoundPage from "./utils/NotFoundPage";
 import React from "react";
 
 export const FONT_FAMILY = "Raleway";
@@ -15,7 +16,6 @@ export function App(props) {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppTemplate>
         <Switch>
-          <Route exact path="/" component={MainPage} />
           <Route exact path="/insights" component={Insights} />
           <Route
             exact
@@ -30,6 +30,9 @@ export function App(props) {
             {...props}
           />
           <Route exact path="/bc-tech-brochure" component={BctechBrochure} />
+          <Route exact path="/" component={MainPage} />
+
+          <Route component={NotFoundPage} />
         </Switch>
       </AppTemplate>
     </BrowserRouter>

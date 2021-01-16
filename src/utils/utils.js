@@ -4,7 +4,7 @@ const URL_BASE = "/JyouJyouWebsite";
 
 export const URL_TOP = URL_BASE + "/#page-top";
 
-export const URL_ABOUT = URL_BASE + "/#about";
+export const URL_ABOUT = "/#about";
 
 export const URL_PRODUCTS = URL_BASE + "/#products";
 

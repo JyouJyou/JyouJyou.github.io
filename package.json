@@ -15,6 +15,7 @@
     "react-is-visible": "^1.1.1",
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
