@@ -1,7 +1,7 @@
 import { Fade, makeStyles } from "@material-ui/core";
+import { URL_ABOUT, URL_BASE } from "../utils/utils";
 
 import React from "react";
-import { URL_ABOUT } from "../utils/utils";
 import { headerdata } from "../data/data";
 
 const useStyles = makeStyles((theme) => ({
@@ -48,7 +48,7 @@ function Header() {
 
                 <div className={classes.learnMore}>
                   <a
-                    href={URL_ABOUT}
+                    href={URL_BASE + URL_ABOUT}
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Learn More
