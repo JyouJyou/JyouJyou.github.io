@@ -75,6 +75,16 @@ export const teamData = [
     job: "Technical Engineer",
   },
   {
+    img: "img/team/JacquesChang.png",
+    name: "Jacques Chang",
+    job: "Technical Engineer",
+  },
+  {
+    img: "img/team/EddieHsieh.png",
+    name: "Eddie Hsieh",
+    job: "Full Stack Engineer",
+  },
+  {
     img: "img/team/LexiSu.jpg",
     name: "Lexi Su",
     job: "Sales Specialist",
