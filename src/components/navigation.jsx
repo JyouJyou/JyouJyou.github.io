@@ -8,7 +8,6 @@ import {
   URL_TOP,
 } from "../utils/utils";
 
-import { HashLink } from "react-router-hash-link";
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 
@@ -53,9 +52,9 @@ function Navigation(props) {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <HashLink to={URL_ABOUT} className="page-scroll">
+              <a href={URL_ABOUT} className="page-scroll">
                 About
-              </HashLink>
+              </a>
             </li>
             <li>
               <a href={URL_PRODUCTS} className="page-scroll">
