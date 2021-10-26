@@ -1,6 +1,6 @@
 export function textColorMapper(text) {}
 
-export const URL_BASE = "";
+export const URL_BASE = "/#";
 
 export const URL_TOP = URL_BASE + "/#page-top";
 
