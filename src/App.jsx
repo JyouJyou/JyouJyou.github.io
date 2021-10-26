@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import { AppTemplate } from "./AppTemplate";
 import BctechBrochure from "./components/services/BctechBrochure";
@@ -13,7 +13,7 @@ export const FONT_FAMILY = "Raleway";
 
 export function App(props) {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <AppTemplate>
         <Switch>
           <Route exact path="/insights" component={Insights} />
@@ -35,7 +35,7 @@ export function App(props) {
           <Route component={NotFoundPage} />
         </Switch>
       </AppTemplate>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
