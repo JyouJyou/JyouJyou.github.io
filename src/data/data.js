@@ -89,11 +89,6 @@ export const teamData = [
     name: "Lexi Su",
     job: "Sales Specialist",
   },
-  {
-    img: "img/team/JenniferWang.jpg",
-    name: "Jennifer Wang",
-    job: "Administration Manager",
-  },
 ];
 
 export const teamSlogan = "An apple a day keeps the doctor away...";

@@ -25,12 +25,22 @@ function BctechBrochure() {
     <div id="bc-tech-brochure" className={classes.root}>
       <img
         className={classes.img}
-        src="img/services/bc-tech-brochure-1.png"
+        src="img/services/bc-tech-brochure-1-ver2.png"
         alt="bc-tech-brochure"
       />
       <img
         className={classes.img}
-        src="img/services/bc-tech-brochure-2.png"
+        src="img/services/bc-tech-brochure-2-ver2.png"
+        alt="bc-tech-brochure"
+      />
+      <img
+        className={classes.img}
+        src="img/services/bc-tech-brochure-3-ver2.png"
+        alt="bc-tech-brochure"
+      />
+      <img
+        className={classes.img}
+        src="img/services/bc-tech-brochure-4-ver2.png"
         alt="bc-tech-brochure"
       />
       <Contact />
