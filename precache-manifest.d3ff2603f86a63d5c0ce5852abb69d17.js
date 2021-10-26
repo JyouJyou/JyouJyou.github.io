@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e76627fd920d788fafc2043e77101eb",
+    "revision": "fd2ec2d5be6d5885bc8a4a252ef0aaf0",
     "url": "/JyouJyouWebsite/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JyouJyouWebsite/static/css/2.c7661d7b.chunk.css"
   },
   {
-    "revision": "4f692b4746f7474a8fe9",
+    "revision": "51c67f1156d77fad5e4c",
     "url": "/JyouJyouWebsite/static/css/main.14a99fb2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JyouJyouWebsite/static/js/2.c8beee6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f692b4746f7474a8fe9",
-    "url": "/JyouJyouWebsite/static/js/main.8086460f.chunk.js"
+    "revision": "51c67f1156d77fad5e4c",
+    "url": "/JyouJyouWebsite/static/js/main.eb241ae2.chunk.js"
   },
   {
     "revision": "5860a84fcbbdd74ae33e",
