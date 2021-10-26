@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "//JyouJyouWebsite/static/css/main.3cf7e6ac.chunk.css",
-    "main.js": "//JyouJyouWebsite/static/js/main.bca3b36c.chunk.js",
-    "main.js.map": "//JyouJyouWebsite/static/js/main.bca3b36c.chunk.js.map",
-    "runtime-main.js": "//JyouJyouWebsite/static/js/runtime-main.7d26c3c4.js",
-    "runtime-main.js.map": "//JyouJyouWebsite/static/js/runtime-main.7d26c3c4.js.map",
-    "static/css/2.c7661d7b.chunk.css": "//JyouJyouWebsite/static/css/2.c7661d7b.chunk.css",
-    "static/js/2.bdadf571.chunk.js": "//JyouJyouWebsite/static/js/2.bdadf571.chunk.js",
-    "static/js/2.bdadf571.chunk.js.map": "//JyouJyouWebsite/static/js/2.bdadf571.chunk.js.map",
-    "index.html": "//JyouJyouWebsite/index.html",
-    "precache-manifest.d6d7d944d1e750b5a9467d99a53c48d1.js": "//JyouJyouWebsite/precache-manifest.d6d7d944d1e750b5a9467d99a53c48d1.js",
-    "service-worker.js": "//JyouJyouWebsite/service-worker.js",
-    "static/css/2.c7661d7b.chunk.css.map": "//JyouJyouWebsite/static/css/2.c7661d7b.chunk.css.map",
-    "static/css/main.3cf7e6ac.chunk.css.map": "//JyouJyouWebsite/static/css/main.3cf7e6ac.chunk.css.map",
-    "static/js/2.bdadf571.chunk.js.LICENSE.txt": "//JyouJyouWebsite/static/js/2.bdadf571.chunk.js.LICENSE.txt",
-    "static/media/NotFoundPage.css": "//JyouJyouWebsite/static/media/bg.3644ee70.jpg"
+    "main.css": "/JyouJyouWebsite/static/css/main.14a99fb2.chunk.css",
+    "main.js": "/JyouJyouWebsite/static/js/main.ba4e98db.chunk.js",
+    "main.js.map": "/JyouJyouWebsite/static/js/main.ba4e98db.chunk.js.map",
+    "runtime-main.js": "/JyouJyouWebsite/static/js/runtime-main.a3abb810.js",
+    "runtime-main.js.map": "/JyouJyouWebsite/static/js/runtime-main.a3abb810.js.map",
+    "static/css/2.c7661d7b.chunk.css": "/JyouJyouWebsite/static/css/2.c7661d7b.chunk.css",
+    "static/js/2.bdadf571.chunk.js": "/JyouJyouWebsite/static/js/2.bdadf571.chunk.js",
+    "static/js/2.bdadf571.chunk.js.map": "/JyouJyouWebsite/static/js/2.bdadf571.chunk.js.map",
+    "index.html": "/JyouJyouWebsite/index.html",
+    "precache-manifest.f802bf5f5de2efddf80844ea5c402e16.js": "/JyouJyouWebsite/precache-manifest.f802bf5f5de2efddf80844ea5c402e16.js",
+    "service-worker.js": "/JyouJyouWebsite/service-worker.js",
+    "static/css/2.c7661d7b.chunk.css.map": "/JyouJyouWebsite/static/css/2.c7661d7b.chunk.css.map",
+    "static/css/main.14a99fb2.chunk.css.map": "/JyouJyouWebsite/static/css/main.14a99fb2.chunk.css.map",
+    "static/js/2.bdadf571.chunk.js.LICENSE.txt": "/JyouJyouWebsite/static/js/2.bdadf571.chunk.js.LICENSE.txt",
+    "static/media/NotFoundPage.css": "/JyouJyouWebsite/static/media/bg.3644ee70.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d26c3c4.js",
+    "static/js/runtime-main.a3abb810.js",
     "static/css/2.c7661d7b.chunk.css",
     "static/js/2.bdadf571.chunk.js",
-    "static/css/main.3cf7e6ac.chunk.css",
-    "static/js/main.bca3b36c.chunk.js"
+    "static/css/main.14a99fb2.chunk.css",
+    "static/js/main.ba4e98db.chunk.js"
   ]
 }
