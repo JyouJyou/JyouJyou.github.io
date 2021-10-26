@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d4bc722b28cdca27b874a3d3e21b6c4",
+    "revision": "7da5f95d6c23daef73879956b25a3775",
     "url": "/JyouJyou.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JyouJyou.github.io/static/css/2.c7661d7b.chunk.css"
   },
   {
-    "revision": "a5b2c04be8cc632da283",
+    "revision": "6cb3e85df2f53f56e601",
     "url": "/JyouJyou.github.io/static/css/main.e14dbd92.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JyouJyou.github.io/static/js/2.c8beee6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5b2c04be8cc632da283",
-    "url": "/JyouJyou.github.io/static/js/main.81dd94a4.chunk.js"
+    "revision": "6cb3e85df2f53f56e601",
+    "url": "/JyouJyou.github.io/static/js/main.bb1b93e8.chunk.js"
   },
   {
     "revision": "dc44c01554619cf2625c",
