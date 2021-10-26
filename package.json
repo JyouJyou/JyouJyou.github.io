@@ -1,6 +1,7 @@
 {
   "name": "jyoujyou",
-  "homepage": "https://JyouJyou.github.io/JyouJyouWebsite",
+  "homepage": "https://JyouJyou.github.io/jyoujyou",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
