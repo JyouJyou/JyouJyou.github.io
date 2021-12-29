@@ -125,16 +125,28 @@ export const contactsData = {
 
 export const newsAndEventsData = [
   {
-    title: "Omni event",
+    title: "Dinner Gathering",
     content:
-      "The Industry’s Leading Solution for Traders to Work Remotely Today’s traders demand mobility. IQ/MAX® Omni enables secure, reliable, compliant and “anytime, anywhere” access to counterparties, liquidity, and trade lifecycle services. The cutting-edge technology of IQ/MAX® Omni puts the same power, control and intuitive user interface provided by Unigy®– powered IQ/MAX Touch and IQ/MAX devices to allow traders to work remotely. Harnessing the power of partnership with IPC Systems, Inc., Jyou Jyou Information Systems Corporation can deliver this solution to you which allows you to communicate, collaborate, stay compliant and trade seamlessly at any time from any location with IQ/MAX® Omni.",
-    learnMoreLink:
-      "https://www.linkedin.com/posts/chu-chi-hsuan-83193417_iqmax-omni-solution-sheet-activity-6658589113492533248-7HwZ",
+      "To celebrate the finish of whole year project, we held the celebration party as a dinner gathering on 17th December 2021 at Toh-A' by using vary kinds of ingredients to cook creative dish with the combination of French and traditional Tawian cusine.",
     imgs: [
-      "img/news-and-events/omni-event/1.png",
-      "img/news-and-events/omni-event/2.png",
+      "img/news-and-events/2021-12-17-dinner-gathering/1.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/2.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/3.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/4.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/5.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/6.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/7.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/8.jpg",
+      "img/news-and-events/2021-12-17-dinner-gathering/9.jpg",
     ],
-    date: "Mar 2020",
+    date: "Dec 17th 2021",
+  },
+  {
+    title: "Dinner Gathering",
+    content:
+      "As Lexi joined into JyouJyou in September, we held the welcome party as a dinner gathering on 29th September 2020 at Luna D’ltalia by using top fresh ingredients to cook traditional Italian dish with authentic recipes and cooking methods.",
+    imgs: ["img/news-and-events/dinner-gathering-event/1.png"],
+    date: "Oct 7th 2020",
   },
   {
     title: "Office Relocation",
@@ -146,13 +158,18 @@ export const newsAndEventsData = [
       "img/news-and-events/relocation-event/3.jpg",
     ],
     date: "Sep 7th 2020",
-  },
+  },  
   {
-    title: "Dinner Gathering",
+    title: "Omni event",
     content:
-      "As Lexi joined into JyouJyou in September, we held the welcome party as a dinner gathering on 29th September 2020 at Luna D’ltalia by using top fresh ingredients to cook traditional Italian dish with authentic recipes and cooking methods.",
-    imgs: ["img/news-and-events/dinner-gathering-event/1.png"],
-    date: "Oct 7th 2020",
+      "The Industry’s Leading Solution for Traders to Work Remotely Today’s traders demand mobility. IQ/MAX® Omni enables secure, reliable, compliant and “anytime, anywhere” access to counterparties, liquidity, and trade lifecycle services. The cutting-edge technology of IQ/MAX® Omni puts the same power, control and intuitive user interface provided by Unigy®– powered IQ/MAX Touch and IQ/MAX devices to allow traders to work remotely. Harnessing the power of partnership with IPC Systems, Inc., Jyou Jyou Information Systems Corporation can deliver this solution to you which allows you to communicate, collaborate, stay compliant and trade seamlessly at any time from any location with IQ/MAX® Omni.",
+    learnMoreLink:
+      "https://www.linkedin.com/posts/chu-chi-hsuan-83193417_iqmax-omni-solution-sheet-activity-6658589113492533248-7HwZ",
+    imgs: [
+      "img/news-and-events/omni-event/1.png",
+      "img/news-and-events/omni-event/2.png",
+    ],
+    date: "Mar 2020",
   },
 ];
 
