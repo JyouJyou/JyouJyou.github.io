@@ -136,8 +136,6 @@ export const newsAndEventsData = [
       "img/news-and-events/2021-12-17-dinner-gathering/5.jpg",
       "img/news-and-events/2021-12-17-dinner-gathering/6.jpg",
       "img/news-and-events/2021-12-17-dinner-gathering/7.jpg",
-      "img/news-and-events/2021-12-17-dinner-gathering/8.jpg",
-      "img/news-and-events/2021-12-17-dinner-gathering/9.jpg",
     ],
     date: "Dec 17th 2021",
   },

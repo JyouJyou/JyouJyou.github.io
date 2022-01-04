@@ -6,6 +6,7 @@ import {
   URL_PRODUCTS,
   URL_TEAM,
   URL_TOP,
+  URL_ONLINE_SYSTEM,
 } from "../utils/utils";
 
 import React from "react";
@@ -78,6 +79,9 @@ function Navigation(props) {
             </li>
             <li>
               <a href={URL_INSIGHTS}>Insights</a>
+            </li>
+            <li>
+              <a href={URL_ONLINE_SYSTEM} style={{color: "#2D9CDB"}}>LOG IN</a>
             </li>
           </ul>
         </div>
